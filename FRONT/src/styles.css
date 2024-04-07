@@ -1,3 +1,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Oculta la barra de desplazamiento en todos los elementos */
+::-webkit-scrollbar {
+    display: none;
+  }

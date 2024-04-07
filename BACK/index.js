@@ -8,8 +8,8 @@ const app = express();
 app.use(express.json());
 
 //RUTAS DE USO
-app.use(cors());
-app.use('/', Landing);
+// app.use(cors());
+app.use('/', );
 
 //Puerto y DB
 //DB cuando tenga
