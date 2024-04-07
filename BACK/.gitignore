@@ -1,0 +1,17 @@
+# Directorios
+node_modules/
+dist/
+.tmp/
+
+# Archivos
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# Logs y archivos temporales
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
