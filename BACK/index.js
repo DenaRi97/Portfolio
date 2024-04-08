@@ -9,13 +9,13 @@ app.use(express.json());
 
 //RUTAS DE USO
 // app.use(cors());
-app.use('/', );
+// app.use('/', );
 
 //Puerto y DB
 //DB cuando tenga
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log(`Servidor corriendo en puerto ${PORT}`);
+    console.log(`Servidor corriendo en puerto ${port}`);
 });
 
 
