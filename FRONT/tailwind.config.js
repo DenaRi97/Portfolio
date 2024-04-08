@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui", 'tailwindcss-animated')],
   colors: {
   },
   backgroundImage: {
