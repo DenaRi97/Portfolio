@@ -7,6 +7,6 @@ module.exports = {
   plugins: [require("daisyui", 'tailwindcss-animated')],
   colors: {
   },
-  backgroundImage: {
-  },
+  backgroundImage: { 'bg': '#831D1E',
+  }
 }

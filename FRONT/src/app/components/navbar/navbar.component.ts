@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener} from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -8,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+  isNavbarVisible = false;
 
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    const yOffset = window.pageYOffset;
+    if (yOffset > 50) {
+      this.isNavbarVisible = true;
+    } else {
+      this.isNavbarVisible = false;
+    }
+  }
 }
